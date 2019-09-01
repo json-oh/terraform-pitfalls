@@ -1,6 +1,4 @@
-provider "aws" {
-  region = "ap-northeast-2"
-}
+provider "aws" {}
 
 locals {
   tags = merge(var.tags, {
